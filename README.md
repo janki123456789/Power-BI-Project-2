@@ -1,4 +1,4 @@
-# 🚀 Power BI Project 2 – Comprehensive & Attractive README
+# 🚀 Power BI Project 2 
 
 ## 🌟 **Project Title:** Power BI Business Intelligence Dashboard
 

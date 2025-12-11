@@ -32,49 +32,29 @@ Below are the key tables used in this project. Click the table names to explore 
 
 ## 🧱 Table Definitions
 
-📌1. Sales_Fact
-o SalesID 
-o CustomerID 
-o ProductID 
-o RegionID 
-o DateKey 
-o Quantity
-o Revenue
-o Discount
+### 📌 customer_dim
 
-📌2. Customer_Dim
-o CustomerID 
-o FullName
-o Age
-o Gender
-o Segment
+Contains details about customers such as name, segment, contact, category, etc.
 
-📌3. Product_Dim
-o ProductID 
-o ProductName
-o Category
-o Subcategory
-o Brand
+### 📌 date_dim
 
-📌4. Region_Dim
-o RegionID 
-o Country
-o State
-o City
+A complete calendar table used for time-intelligent analysis (YTD, MTD, QTD, YOY, etc.).
 
-📌5. Date_Dim
-o DateKey
-o Date
-o Month
-o Quarter
-o Year
-o Fiscal Year
+### 📌 product_dim
 
-📌6. Returns_Fact
-o ReturnID 
-o SalesID 
-o ReturnDateKey 
-o Reason
+Includes product name, category, subcategory, cost, color, and other attributes.
+
+### 📌 region_dim
+
+Stores region, state, city, and geographical segmentation.
+
+### 📌 sales_fact
+
+Main transactional table containing sales amount, units sold, discounts, profit, etc.
+
+### 📌 returns_fact
+
+Data for returned orders used for return rate, loss calculation, and quality analysis.
 
 Financial impact
 ---

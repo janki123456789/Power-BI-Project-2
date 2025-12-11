@@ -59,32 +59,6 @@ Data for returned orders used for return rate, loss calculation, and quality ana
 
 ---
 
-### 📌 customer_dim
-
-Contains details about customers such as name, segment, contact, category, etc.
-
-### 📌 date_dim
-
-A complete calendar table used for time-intelligent analysis (YTD, MTD, QTD, YOY, etc.).
-
-### 📌 product_dim
-
-Includes product name, category, subcategory, cost, color, and other attributes.
-
-### 📌 region_dim
-
-Stores region, state, city, and geographical segmentation.
-
-### 📌 sales_fact
-
-Main transactional table containing sales amount, units sold, discounts, profit, etc.
-
-### 📌 returns_fact
-
-Data for returned orders used for return rate, loss calculation, and quality analysis.
-
----
-
 ## 📁 **Included File**
 
 * **Power Bi Project-2.pbix** – The main Power BI project file containing all dashboards, visuals, datasets, and DAX calculations.

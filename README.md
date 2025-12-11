@@ -10,12 +10,11 @@ This repository contains a complete Power BI project designed to transform raw d
 
 ## 🎯 **Objectives of the Project**
 
-* Convert complex datasets into meaningful visual analytics
-* Provide KPIs that highlight business efficiency and opportunities
-* Enable users to filter, slice, and drill down into data for deeper insights
-* Improve forecasting and trend visibility
-* Support strategic planning with detailed and interactive dashboards
-
+· Table relationships
+· Cardinality
+. Star vs Snowflake schemas
+· Handling inactive/ambiguous path
+· Data categories and hierarchies
 ---
 
 ## 🔗 Data Model (Tables & Links)
@@ -33,36 +32,51 @@ Below are the key tables used in this project. Click the table names to explore 
 
 ## 🧱 Table Definitions
 
-### 📌 customer_dim
+📌1. Sales_Fact
+o SalesID 
+o CustomerID 
+o ProductID 
+o RegionID 
+o DateKey 
+o Quantity
+o Revenue
+o Discount
 
-Contains details about customers such as name, segment, contact, category, etc.
+📌2. Customer_Dim
+o CustomerID 
+o FullName
+o Age
+o Gender
+o Segment
 
-### 📌 date_dim
+📌3. Product_Dim
+o ProductID 
+o ProductName
+o Category
+o Subcategory
+o Brand
 
-A complete calendar table used for time-intelligent analysis (YTD, MTD, QTD, YOY, etc.).
+📌4. Region_Dim
+o RegionID 
+o Country
+o State
+o City
 
-### 📌 product_dim
+📌5. Date_Dim
+o DateKey
+o Date
+o Month
+o Quarter
+o Year
+o Fiscal Year
 
-Includes product name, category, subcategory, cost, color, and other attributes.
+📌6. Returns_Fact
+o ReturnID 
+o SalesID 
+o ReturnDateKey 
+o Reason
 
-### 📌 region_dim
-
-Stores region, state, city, and geographical segmentation.
-
-### 📌 sales_fact
-
-Main transactional table containing sales amount, units sold, discounts, profit, etc.
-
-### 📌 returns_fact
-
-Data for returned orders used for return rate, loss calculation, and quality analysis.
-
----
-
-## 📁 **Included File**
-
-* **Power Bi Project-2.pbix** – The main Power BI project file containing all dashboards, visuals, datasets, and DAX calculations.
-
+Financial impact
 ---
 
 ## 🧩 **Key Features of This Dashboard**
@@ -75,13 +89,11 @@ Data for returned orders used for return rate, loss calculation, and quality ana
 ### 🔹 **Insightful KPIs**
 
 * Performance indicators designed to highlight strengths and weaknesses
-* Automated KPI color logic (e.g., red for low, green for high)
 
 ### 🔹 **Data Modelling**
 
 * Clean star schema design
 * Proper relationship management
-* Optimized DAX calculations for smooth performance
 
 ### 🔹 **Attractive UI/UX**
 
@@ -127,9 +139,7 @@ Time‑series visualizations to monitor growth patterns and predict future resul
 
 * Power BI Desktop
 * Power Query (ETL transformations)
-* DAX Measures & Calculations
 * Data Modelling (Star Schema)
-* Data Visualization & UX Design
 
 ---
 

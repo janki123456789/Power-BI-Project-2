@@ -22,12 +22,12 @@ This repository contains a complete Power BI project designed to transform raw d
 
 Below are the key tables used in this project. Click the table names to explore their purpose and structure.
 
-* [**customer_dim**](#customer_dim) 
-* [**date_dim**](#date_dim) 
-* [**product_dim**](#product_dim) 
-* [**region_dim**](#region_dim) 
-* [**sales_fact**](#sales_fact) 
-* [**returns_fact**](#returns_fact) 
+* [customer_dim.xlsx](./customer_dim.xlsx) 
+* [date_dim.xlsx](./date_dim.xlsx) 
+* [product_dim.xlsx](./product_dim.xlsx) 
+* [region_dim.xlsx](./region_dim.xlsx) 
+* [sales_fact.xlsx](./sales_fact.xlsx) 
+* [returns_fact.xlsx](./returns_fact.xlsx) 
 
 ---
 

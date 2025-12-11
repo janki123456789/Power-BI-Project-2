@@ -22,7 +22,7 @@ This repository contains a complete Power BI project designed to transform raw d
 
 Below are the key tables used in this project. Click the table names to explore their purpose and structure.
 
-* [**customer_dim**](#customer_dim) 
+* [customer_dim](#customer_dim) 
 * [**date_dim**](#date_dim) 
 * [**product_dim**](#product_dim) 
 * [**region_dim**](#region_dim) 

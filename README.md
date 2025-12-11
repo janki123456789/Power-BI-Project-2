@@ -142,7 +142,3 @@ You can modify this project to suit your business needs:
 * Introduce new dashboards
 * Connect additional data sources
 * Enhance forecasting models
-
-
-
-###
